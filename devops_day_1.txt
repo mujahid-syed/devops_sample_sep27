@@ -1,0 +1,29 @@
+Devop_DAY_01
+
+.........or create a new repository on the command line
+
+echo "# devops_sample_sep27" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mujahid-syed/devops_sample_sep27.git
+git push -u origin main
+
+
+
+.........or push an existing repository from the command line
+git remote add origin https://github.com/mujahid-syed/devops_sample_sep27.git
+git branch -M main
+git push -u origin main
+
+
+==> Default branch in Git Hub ----> "master"
+
+ll			->		list of files in present working directory
+touch			->		to create an empty file
+cat>			->		to edit or enter the data
+cat			->		to view the data in the file
+ll -a			->		to check the list of files along with hidden files
+git init		->		To create a new repository or edit existing repositery		
+
